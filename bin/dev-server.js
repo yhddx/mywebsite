@@ -16,3 +16,4 @@ const server = new WebpackDevServer(compiler, {
 server.listen(9090, 'localhost', function (err) {
     if (err) throw err
 })
+console.log("serve at http://localhost:9090")

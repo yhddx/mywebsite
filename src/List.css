@@ -1,0 +1,26 @@
+.list-wrap{
+    margin: 0 auto;
+    padding-top: 5em;
+    width: 42em;
+    background-color: #fff;
+    min-height: 100vh;
+}
+h2{
+    margin:0;
+}
+.page{
+  float: right;
+  height: 40px;
+  line-height: 40px;
+  color: blue;
+  font-size: 19px;
+  /* border:solid 1px; */
+}
+.page-link{
+  padding:0 8px;
+  cursor: pointer;
+}
+
+.page-link-active{
+  text-decoration: underline;
+}
